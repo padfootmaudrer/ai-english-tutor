@@ -1,12 +1,11 @@
 from dotenv import find_dotenv, load_dotenv
-from secret_key import huggingface_api_key,openai_api_key
 import os
 from openai import OpenAI
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = huggingface_api_key
-os.environ["OPENAI_API_KEY"] = openai_api_key
-
 load_dotenv(find_dotenv())
+
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = os.getenv('HUGGINGFACE_API_KEY')
+os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 
 client = OpenAI()
 

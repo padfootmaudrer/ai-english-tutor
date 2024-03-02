@@ -4,13 +4,17 @@ import subprocess
 import os
 import speech_recognition as sr
 import analyse as an
+
+from dotenv import find_dotenv, load_dotenv
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from typing import Final
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN: Final = '6622374854:AAH67u07SbWHSd4H_MLkC2cf-HFl27aKGDU'
+load_dotenv(find_dotenv())
+
+TOKEN: Final = os.getenv('TELEGRAM_BOT_TOKEN') 
 BOT_USERNAME = '@EnghlishCoachBot'
 
 
