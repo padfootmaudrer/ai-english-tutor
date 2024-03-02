@@ -11,8 +11,6 @@ The AI English Tutor is a tool designed to help individuals improve their spoken
 3. [Features](#features)
 4. [Contributing](#contributing)
 5. [License](#license)
-6. [Acknowledgements](#acknowledgements)
-7. [Contact](#contact)
 
 ## Installation
 
@@ -68,11 +66,3 @@ If you'd like to contribute to the AI English Tutor project, follow these steps:
 ## License
 
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) - see the [LICENSE.md](https://github.com/sushobhith/ai-english-tutor/blob/main/LICENSE.md) file for details.
-
-## Acknowledgements
-
-I would like to express gratitude to [List of Libraries/Frameworks/Tools] for their inspiration and support in building the AI English Tutor.
-
-## **Contact**
-
-For any questions or inquiries, feel free to reach out to the project maintainer at [sushobhith@gmail.com](sushobhith@gmail.com) .
